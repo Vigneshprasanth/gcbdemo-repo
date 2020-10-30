@@ -3,6 +3,7 @@ FROM python:3.7-slim
 WORKDIR /app
 ADD . /app
 
+#Testing purpose
 # Install any necessary dependencies
 RUN pip3 install -r requirements.txt
 
